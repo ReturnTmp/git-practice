@@ -1,0 +1,30 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "练习git操作的示例仓库 添加示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReturnTmp/git-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReturnTmp/git-practice/issues"
+  },
+  "homepage": "https://github.com/ReturnTmp/git-practice#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
